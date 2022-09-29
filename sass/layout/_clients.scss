@@ -1,0 +1,25 @@
+.clients{
+    padding-bottom: 94px;
+    padding-top: 94px;}
+
+.clients-list{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.clients-list-item{
+    display:flex;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    fill:currentColor;
+    color:#AFB1B8;
+    transition: fill var(--transit-dur-and-func),border-color var(--transit-dur-and-func);
+    
+    &:hover{
+        fill:var(--accent-color);
+        border-color: var(--accent-color);
+    }
+}
