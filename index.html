@@ -101,7 +101,13 @@
     <ul class="services-list">
        
         <li class="services-list__item">
-           <img src="./images/service1.jpg" alt="Людина працює на планшеті" width="370">
+            <picture>
+                <source srcset="./images/service1.jpg 1x, ./images/retina/apps2x-min.jpg 2x"
+                 media="(min-width:1200px)"
+                 />
+                <img src="./images/service1.jpg" alt="Людина працює на планшеті" width="370">
+                </picture>
+           
            <div class="services-list__box">
         <h3 class="services-list__title">Десктопні додатки</h3>
           </div>
