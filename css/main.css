@@ -41,7 +41,7 @@ body {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .container {
     width: 450px;
     margin-left: auto;
@@ -111,6 +111,7 @@ header {
   align-items: center;
   gap: 93px;
 }
+
 .page-navigation__list {
   display: flex;
   width: 281px;
