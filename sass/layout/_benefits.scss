@@ -1,37 +1,68 @@
+.benefits-list__box{
+    box-sizing: border-box;
+    background-color:#F5F4FA;
+    display:flex;
+    border-radius: 4px; 
+    align-items:center;
+    justify-content:center;
+    margin-bottom:30px;
+}
 
 
+.benefits-list__title{
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+    margin-bottom:10px;
+    
+}
+
+@media screen and (min-width:480px){
+ .benefits{
+     padding-top:60px;
+     padding-bottom:60px;
+
+     &__container{
+        padding:0;
+    }}
+      
+     .benefits-list__box{
+        width:450px;
+        height:120px;
+     }   
+ .benefits-list__title{
+    text-align: center;
+ }
+ .benefits-list__text {
+    margin-bottom:30px;
+ }
+}
 
 @media screen and (min-width:768px){
     .benefits{
      padding-top:60px;
-     padding-bottom:60px;}
-
- .benefits-container{
-    padding:0;
+     padding-bottom:60px;
+    
+     &__container{
+        padding:0;
+    }
 }
+
 .benefits-list{
     display: flex;
-    flex-direction: row;
-    gap: 30px;}
+    flex-wrap: row;
+    gap: 30px;
 
-    .benefits-list__box{
-            box-sizing: border-box;
-            width:270px;
-            height:120px;
-            background-color:#F5F4FA;
-            display:flex;
-            border-radius: 4px; 
-            align-items:center;
-            justify-content:center;
-        }  
-        
-    .benefits-list__title{
-        font-size: 14px;
-        line-height: 1.14;
-        text-transform: uppercase;
-        color: var(--secondary-text-color);
-        margin-bottom:10px;
+    &__box{
+        width:354px;
+        height:120px;
+    }  
+
+    &__title{
+        text-align: start;
     }    
+}
  }
 
 
@@ -47,24 +78,13 @@
     gap: 30px;
 
     &__box{
-        box-sizing: border-box;
         width:270px;
         height:120px;
-        background-color:#F5F4FA;
-        display:flex;
-        border-radius: 4px; 
-        align-items:center;
-        justify-content:center;
-        margin-bottom:30px;
     }
-
+    
     &__title{
-        font-size: 14px;
-        line-height: 1.14;
-        text-transform: uppercase;
-        color: var(--secondary-text-color);
-        margin-bottom:10px;
-    }
+        text-align: start;
+    }    
 }}
 
 

@@ -1,3 +1,5 @@
+
+
 footer{
     background:var(--footer-color);
     padding-top:60px;
@@ -38,11 +40,84 @@ color: var(--main-color);
    
 }
 
+@media screen and (max-width:767px){
+    .footer-flex-box{
+        display:block;
+        text-align: center;}
+
+        .subscribe-us{
+            display: block;
+            text-align: center;
+            margin-bottom:60px;
+        }
+    .social-links-list-footer{
+        justify-content: center;
+    }
+.company-contacts{
+    margin-right:0;
+    margin-bottom:60px;
+}
+.subscribe-thenews{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+.subscribe-form{
+    display:block;
+    margin: auto;
+}
+.modal-form-submit{
+    display:block;
+    margin:auto;
+}
+.subscribe-form-input{
+    width:420px;
+    margin-bottom:20px; 
+}}
+
+        
+@media screen and (min-width:768px){
+    .footer-flex-box{
+        display: flex;
+        flex-wrap: wrap;
+    align-items: baseline;}
+
+    .company-contacts{
+        text-align: center;
+        margin-right:165px;
+        margin-left:46px;
+        margin-bottom: 60px;
+    }
+    .subscribe-us{
+        text-align: center;  
+    }
+
+    .subscribe-thenews{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+.modal-form-submit{
+    display:block;
+    margin:auto;
+}
+
+.subscribe-form-input{
+    width:450px;
+    margin-bottom:20px; 
+}
+}
+
+
+
+@media screen and (min-width:1200px){
 .footer-flex-box{
     display: flex;
     justify-content: space-between;
-   
 }
+
 .subscribe-us{
     display: flex;
     align-items:baseline;
@@ -50,6 +125,25 @@ color: var(--main-color);
     padding-top:1%;
     margin-right:93px;
 
+}
+.subscribe-form{
+    display: flex;
+}
+ 
+.subscribe-thenews{
+    display: flex;
+    align-items:baseline;
+    flex-direction: column;
+    padding-top: 1%;
+}
+.subscribe-form-input{
+    width: 358px;
+    height: 50px;
+    margin-right:14px;
+}}
+
+.modal-form-submit{
+    display:flex;
 }
 
 .social-links-footer{
@@ -91,25 +185,10 @@ color: var(--main-color);
             background-color:var(--accent-color);
         }
     }
-    
-    
 
-    
-.subscribe-thenews{
-    display: flex;
-    align-items:baseline;
-    flex-direction: column;
-    padding-top: 1%;
-}
-
-.subscribe-form{
-    display: flex;
-}
 
 
 .subscribe-form-input{
-width: 358px;
-height: 50px;
 border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
@@ -119,7 +198,6 @@ font-family:inherit;
 font-size: 16px;
 line-height:1.2;
 letter-spacing: 0.03em;
-margin-right:14px;
 padding:15px 16px;
 }
 

@@ -6,13 +6,14 @@
     padding-bottom:94px;
   }
   
+  
   .team-members{
       display: flex;
       gap:30px;
       flex-wrap: wrap;
   
   }
-  
+
   .team-members h3{
       font-weight: 500;
       font-size: 16px;
@@ -34,3 +35,35 @@
       text-align: center;
       margin-bottom:16px;
   }
+
+  
+  @media screen and (min-width:480px){
+    .team-members{
+        display: block;}
+
+        .team-person{
+            margin-bottom:30px;
+        }
+    }
+  
+
+  @media screen and (min-width:768px){
+    .team-members{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 30px;
+    justify-content: center;
+    }}
+    
+    
+  @media screen and (max-width:1199px){
+    .about-us{
+        margin-bottom:30px;
+        font-size:28px;
+    }
+    .team{
+    padding-top:60px;
+    padding-bottom:60px;
+}}
+
+
