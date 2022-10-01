@@ -16,13 +16,13 @@
     visibility: hidden;
     pointer-events: none;
   }
+
   
   .modal {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    @include size(580px, 528px);
     padding:40px 40px;
     background-color: var(--main-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -214,3 +214,5 @@ margin-bottom:12px;
             line-height:1.8;
             letter-spacing: 0.06em;
             color: var(--logo-white);}
+
+           
