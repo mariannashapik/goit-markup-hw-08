@@ -1,12 +1,7 @@
 
-.contacts {
-    display:flex;
-    gap:50px;
-    align-items: center;
-
+.contacts{
     &__mail,
     &__tel {
-    display:flex;
     color:inherit;
     text-decoration: none;
     font-weight: 500;
@@ -15,16 +10,32 @@
     &:hover,
     &:focus{
     color: var(--accent-color);}
-}
+    }
 
     &__icon {
-    display:flex;
-    align-items: center;
-    margin-right:10px;
-    fill: currentColor;}
+        margin-right:10px;
+        fill: currentColor;}
 }
 
+ @media screen and (min-width:768px) {
+    .contacts{
+        display:block;}
+}
 
- 
- 
+@media screen and (min-width:1200px){
+    .contacts {
+        display:flex;
+        gap:20px;
+        align-items:center;
+
+        &__mail,&__tel{
+            display: flex;
+        }
+
+        &__icon {
+            display:flex;
+            align-items: center;}
+        }
+    }
+
 
