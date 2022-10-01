@@ -77,7 +77,7 @@ color: var(--main-color);
 }}
 
         
-@media screen and (min-width:768px){
+@media screen and (min-width:780px){
     .footer-flex-box{
         display: flex;
         flex-wrap: wrap;
@@ -111,11 +111,18 @@ color: var(--main-color);
 }
 
 
-
 @media screen and (min-width:1200px){
 .footer-flex-box{
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.company-contacts{
+    text-align:left;
+    margin-left:0;
+    margin-bottom:0;
+    margin-right:70px;
 }
 
 .subscribe-us{
@@ -140,6 +147,7 @@ color: var(--main-color);
     width: 358px;
     height: 50px;
     margin-right:14px;
+    margin-bottom:0;
 }}
 
 .modal-form-submit{
