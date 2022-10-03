@@ -130,25 +130,27 @@
     <ul class="services-list">
        
         <li class="services-list__item">
-            <picture>
-                <source srcset="./images/service1.jpg 1x, ./images/retina/apps2x-min.jpg 2x"
-                 media="(min-width:1200px)"
-                 />
-                <img src="./images/service1.jpg" alt="Людина працює на планшеті" width="370">
-                </picture>
+                <img 
+                srcset="./images/service1.jpg 1x, ./images/apps2x-min.jpg 2x"
+                src="./images/service1.jpg" alt="Людина працює на планшеті" width="370">
+            
            
            <div class="services-list__box">
         <h3 class="services-list__title">Десктопні додатки</h3>
           </div>
             </li>
         <li class="services-list__item">
-            <img src="./images/service2.jpg" alt="Дизайнер обирає колір на планшеті" width="370">
+            <img
+            srcset="./images/service2.jpg 1x,./images/mobile-apps2x-min.jpg 2x"
+            src="./images/service2.jpg" alt="Дизайнер обирає колір на планшеті" width="370">
             <div class="services-list__box">
                 <h3 class="services-list__title">Мобільні додатки</h3>
             </div>
                 </li>
         <li class="services-list__item">
-            <img src="./images/service3.jpg" alt="Людина працює на комп'ютері" width="370">
+            <img 
+            srcset="./images/service3.jpg 1x,./images/design2x-min.jpg 2x"
+            src="./images/service3.jpg" alt="Людина працює на комп'ютері" width="370">
             <div class="services-list__box">
                 <h3 class="services-list__title">Дизайнерські рішення</h3>
             </div>
@@ -163,7 +165,18 @@
     <h2 class="about-us">Наша команда</h2>
     <ul class="team-members">
         <li class="team-person">
-            <img src="./images/photo1.jpg" alt="Ігор Дем'яненко" width="270">
+            <picture>
+                <source
+                srcset="./images/photo1.jpg 1x, ./images/igor-desktop2x-min.jpg 2x" media="(min-width: 1200px)"
+                />
+                <source
+                srcset="./images/igor-tablet-min.jpg 1x, ./images/igor-tablet2x-min.jpg 2x" media="(min-width: 768px)"
+                />
+                <source
+                srcset="./images/igor-phone-min.jpg 1x, ./images/igor-phone2x-min.jpg 2x" media="(max-width: 767px)"
+                />
+            <img src="./images/photo1.jpg" alt="Ігор Дем'яненко" >
+        </picture>
             <div class="team-members-card">
                 <h3>Ігор Дем'яненко</h3>
                 <p>Product Designer</p>
@@ -199,7 +212,18 @@
 
         </li>
         <li class="team-person">
-            <img src="./images/photo2.jpg" alt="Ольга Рєпіна" width="270">
+            <picture>
+                <source
+                srcset="./images/photo2.jpg 1x, ./images/olga-desktop2x-min.jpg 2x" media="(min-width: 1200px)"
+                />
+                <source
+                srcset="./images/olga-tablet-min.jpg 1x, ./images/olga-tablet2x-min.jpg 2x" media="(min-width: 768px)"
+                />
+                <source
+                srcset="./images/olga-phone-min.jpg 1x, ./images/olga-phone2x-min.jpg 2x" media="(max-width: 767px)"
+                />
+            <img src="./images/photo2.jpg" alt="Ольга Рєпіна">
+            </picture>
             <div class="team-members-card">
                 <h3>Ольга Рєпіна</h3>
                 <p>Frontend Developer</p>
@@ -234,7 +258,18 @@
             </div>
         </li>
         <li class="team-person">
-            <img src="./images/photo3.jpg" alt="Микола Тарасов" width="270">
+            <picture>
+            <source
+                srcset="./images/photo3.jpg 1x, ./images/mykola-desktop2x-min.jpg 2x" media="(min-width: 1200px)"
+                />
+                <source
+                srcset="./images/mykola-tablet-min.jpg 1x, ./images/mykola-tablet2x-min.jpg 2x" media="(min-width: 768px)"
+                />
+                <source
+                srcset="./images/mykola-phone-min.jpg 1x, ./images/mykola-phone2x-min.jpg 2x" media="(max-width: 767px)"
+                />
+            <img src="./images/photo3.jpg" alt="Микола Тарасов">
+        </picture>
             <div class="team-members-card">
                 <h3>Микола Тарасов</h3>
                 <p>Marketing</p>
@@ -269,7 +304,18 @@
             </div>
         </li>
         <li>
-            <img src="./images/photo4.jpg" alt="Михайло Єрмаков" width="270">
+            <picture>
+                <source
+                srcset="./images/photo4.jpg 1x, ./images/misha-desktop2x-min.jpg 2x" media="(min-width: 1200px)"
+                />
+                <source
+                srcset="./images/misha-tablet-min.jpg 1x, ./images/misha-tablet2x-min.jpg 2x" media="(min-width: 768px)"
+                />
+                <source
+                srcset="./images/misha-phone-min.jpg 1x, ./images/misha-phone2x-min.jpg 2x" media="(max-width: 767px)"
+                />
+            <img src="./images/photo4.jpg" alt="Михайло Єрмаков">
+        </picture>
             <div class="team-members-card">
                 <h3>Михайло Єрмаков</h3>
                 <p>UI Designer</p>
