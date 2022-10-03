@@ -37,6 +37,35 @@
     </li>
      </ul>
     </div>
+    <button type="button" class="open-mobmenu" aria-expanded="false" data-menu-open>
+        <svg class="open-mobmenu__icon" width="40px" height="40px">
+           <use href="./images/symbol-defs.svg#icon-menu_40px"></use>
+        </svg>
+       </button>
+    <div class="mobile-menu js-menu-container" data-menu>
+        <div class="container mobile-menu__container" >
+           <button class="mobile-menu__close-btn js-close-menu" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="40px" height="40px">
+                <use href="./images/symbol-defs.svg#icon-close_40px"></use>
+              </svg>
+           </button>
+           <ul class="mobmenu-list">
+            <li class="mobmenu-list__item"><a  class="mobmenu-list__link mobmenu-list__link-current link" href="./index.html">Студія</a></li>
+            <li class="mobmenu-list__item"><a class="mobmenu-list__link link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="mobmenu-list__item"><a class="mobmenu-list__link link " href="#">Контакти</a></li>
+           </ul>
+           <div class="contacts-container">
+            <a class="mobmenu__contacts-tell link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="mobmenu__contacts-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="mob-social-list">
+                <li class="mob-social-list-item"><a class="mob-social-list__link link" href="#instagram" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
+                <li class="mob-social-list-item"><a class="mob-social-list__link link" href="#twitter" target="_blank" rel="noopener noreferrer nofollow">Twitter</a></li>
+                <li class="mob-social-list-item"><a class="mob-social-list__link link" href="#facebook" target="_blank" rel="noopener noreferrer nofollow">Facebook</a></li>
+                <li class="mob-social-list-item"><a class="mob-social-list__link link" href="#linkedin" target="_blank" rel="noopener noreferrer nofollow">Linkedin</a></li>
+            </ul>
+           </div>
+        </div>
+    </div>
     </header>
 
     <main>
@@ -480,6 +509,7 @@
         </div>
         </div>
         
-        <script src="./js/modal.js"></script> 
+        <script src="./js/modal.js"></script>
+        <script defer src="./js/menu.js"></script>
 </body>
 </html>
