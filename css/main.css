@@ -171,7 +171,7 @@ header {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity var(--transition-dur-fun), visability var(--transition-dur-fun);
+    transition: opacity var(--transit-dur-fun), visability var(--transit-dur-fun);
   }
   .mobile-menu.is-open {
     opacity: 1;
@@ -198,7 +198,7 @@ header {
     border: 0;
     padding: 0;
     line-height: 0;
-    transition: fill var(--transition-dur-fun);
+    transition: fill var(--transit-dur-fun);
   }
   .mobile-menu__close-btn:focus .mobile-menu__close-icon,
 .mobile-menu__close-btn:hover .mobile-menu__close-icon {
@@ -402,6 +402,9 @@ header {
     padding-bottom: 94px;
     padding-top: 94px;
   }
+  .benefits__container {
+    padding: 0;
+  }
   .benefits-list {
     display: flex;
     gap: 30px;
@@ -491,7 +494,7 @@ header {
   margin-bottom: 16px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .team-members {
     display: block;
   }

@@ -78,7 +78,11 @@
 @media screen and (min-width:1200px){
 .benefits{
     padding-bottom: 94px;
-    padding-top: 94px; 
+    padding-top: 94px;
+
+    &__container{
+        padding:0;
+    }
 }
 
 .benefits-list{
